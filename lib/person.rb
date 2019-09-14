@@ -3,15 +3,10 @@ class Person
     @name = name
     @job = job
   end
-  def name
-    @name
-  end
-  def job
-    @job
+  def show
+    puts @mane, @job
   end
 end
 
-beyonce = Person.new("Beyonce")
-beyonce.name
-singer = Person.new("Singer")
-singer.job
+beyonce = Person.new("Beyonce, Singer")
+beyonce.show
